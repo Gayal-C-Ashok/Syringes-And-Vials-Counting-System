@@ -5,7 +5,7 @@ This repository contains code and a small dataset for detecting and counting syr
 Contents
 - `Syringes And Vials/` — dataset (train/valid/test) and labels
 - Notebooks: `yolo v7.ipynb`, `yolo v8.ipynb`, `yolo v9.ipynb`, `yolov8l.ipynb`
-- `streamapp (2).py` — example streaming/app script
+- `streamapp.py` — example streaming/app script
 
 Quick start
 1. Clone the repo.
