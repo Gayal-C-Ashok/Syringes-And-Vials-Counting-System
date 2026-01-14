@@ -1,0 +1,27 @@
+preprocessing code
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="Sgpyl7TKQKKd7Z0Gx6lq")
+project = rf.workspace("gayal-c-kwimf").project("vial-83dtq")
+version = project.version(3)
+dataset = version.download("yolov9")
+
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="Sgpyl7TKQKKd7Z0Gx6lq")
+project = rf.workspace("gayal-c-kwimf").project("vial-83dtq")
+version = project.version(3)
+dataset = version.download("yolov8")
+
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="Sgpyl7TKQKKd7Z0Gx6lq")
+project = rf.workspace("gayal-c-kwimf").project("vial-83dtq")
+version = project.version(3)
+dataset = version.download("yolov7")
