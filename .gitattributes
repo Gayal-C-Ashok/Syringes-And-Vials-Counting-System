@@ -10,4 +10,4 @@
 *.pdf binary
 
 # Avoid CRLF issues for the dataset label files
-Syringes And Vials/** text eol=lf
+
