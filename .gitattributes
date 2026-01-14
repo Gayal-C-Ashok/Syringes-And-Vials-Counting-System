@@ -1,0 +1,13 @@
+# Normalize text files and mark common binary types
+* text=auto
+
+# Binary assets
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.mp4 binary
+*.mov binary
+*.pdf binary
+
+# Avoid CRLF issues for the dataset label files
+Syringes And Vials/** text eol=lf
