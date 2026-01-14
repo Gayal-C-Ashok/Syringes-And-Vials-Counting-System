@@ -1,4 +1,4 @@
-# Syringes And Vials — Counting System
+# Automated Syringes And Vials — Counting System
 
 This repository contains code and a small dataset for detecting and counting syringes and vials using YOLO models.
 
